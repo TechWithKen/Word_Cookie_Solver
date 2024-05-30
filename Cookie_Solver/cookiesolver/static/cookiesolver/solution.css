@@ -184,7 +184,8 @@ hr{
     background-size: cover;
     position: relative;
     height: 100%;
-    display: none
+    display: none;
+    border-radius: 15px;
 
 }
 
@@ -214,6 +215,7 @@ hr{
     box-shadow: 5px 5px 5px #2a2a2a;
     font-size: 2rem;
     text-transform: uppercase;
+    border-radius: 15px;
 
 }
 
@@ -307,5 +309,6 @@ hr{
         margin-right: 0.5em;
         font-size: 1rem;
         box-shadow: 5px 5px 10px #e7d3d3;
+        border-radius: 15px;
     }
 }
