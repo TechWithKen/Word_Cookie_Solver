@@ -194,7 +194,7 @@ hr{
 
 .count_words{
     font-size: 2.5rem;
-    color: white;
+    color: black;
     margin-bottom: 0.5em
 }
 
@@ -210,7 +210,7 @@ hr{
     justify-content: center;
     align-items: center;
     margin-right: 0.7em;
-    color: white;
+    color: black;
     font-size: 2rem;
     text-transform: uppercase;
 
