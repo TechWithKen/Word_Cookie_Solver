@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded',function(){
     // function gets user input save it into a variable and send it to django view to work with through the sendUserInput function
     document.querySelector('button').addEventListener('click',function(){
         const user_input = document.querySelector('input').value
-        if(user_input.length > 6 ){
-            alert('Input must not be grater than 6 words')
+        if(user_input.length > 10 ){
+            alert('Input must not be grater than 10 words')
         }
         else{
             // 
