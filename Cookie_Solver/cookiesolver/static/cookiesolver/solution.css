@@ -127,7 +127,7 @@ header h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 50px 0 
+    margin: 50px 0;
 }
 
 .input_section input{
@@ -138,7 +138,8 @@ header h2{
     outline: none;
     text-align: center;
     font-size: 2rem;
-    font-weight: bold
+    font-weight: bold;
+    box-shadow: 5px 5px 10px #2a2a2a;
 }
 
 .input_section input::placeholder{
@@ -166,7 +167,7 @@ header h2{
 /* horizontal line */
 
 hr{
-    border: 2px solid rgb(126, 84, 0)
+    border: 3px solid rgb(126, 84, 0)
 }
 
 /* result */
@@ -202,8 +203,7 @@ hr{
 }
 
 .letter_block{
-    background: rgba(128, 67, 38, 1);
-    border: 2px solid black;
+    background:  rgb(192, 128, 0);
     height: 45px;
     width: 45px;
     display: flex;
@@ -212,7 +212,7 @@ hr{
     margin-right: 0.7em;
     color: white;
     font-size: 2rem;
-    text-transform: uppercase
+    text-transform: uppercase;
 
 }
 
@@ -292,7 +292,7 @@ hr{
 
     .count_words{
         font-size: 2.5rem;
-        color: white;
+        color: black;
         margin-bottom: 0.5em
     }
 
@@ -305,5 +305,6 @@ hr{
         width: 45px;
         margin-right: 0.5em;
         font-size: 1rem;
+        box-shadow: 5px 5px 10px #e7d3d3;
     }
 }

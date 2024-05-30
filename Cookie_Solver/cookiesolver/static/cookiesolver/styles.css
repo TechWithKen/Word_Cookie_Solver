@@ -113,7 +113,13 @@ h2:nth-child(4){
     border: none;
     background: rgb(163, 109, 1); 
     font-size: 1.1rem;
-    padding: 10px  0
+    padding: 10px  0;
+    box-shadow: 5px 5px 7px;
+}
+.loading_container button:hover{
+    background: beige;
+    color: black;
+    font-weight: bold;
 }
 
 /* footer */
@@ -184,6 +190,7 @@ footer h4 a{
         /* font(Tahoma, bold) - color(white) - font size (50 or below) center aligned */
         font-size: 0.89rem;
         padding: 10px 0
+        box
     }
     
     /* footer */
