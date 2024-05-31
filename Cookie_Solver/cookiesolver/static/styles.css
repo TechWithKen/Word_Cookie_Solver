@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url('./images/cookie-bg.jpg');
+    background: url('./cookie_logo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -203,6 +203,4 @@ footer h4 a{
     footer h4 a{
         font-size: 1rem;
     }
-
-    
 }

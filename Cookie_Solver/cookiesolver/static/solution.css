@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url('./images/cookie-bg.jpg');
+    background: url('./cookie-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    background: url('./images/cookie-bg.jpg');
+    background: url('./cookie-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -178,7 +178,7 @@ hr{
     padding: 2em;
     padding-top: 0;
     width: 100%;
-    background: url('./images/cookie-bg.jpg');
+    background: url('./cookie-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
