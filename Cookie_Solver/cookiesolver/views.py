@@ -8,10 +8,10 @@ from django.views.decorators.csrf import csrf_exempt
 
 # Django Views
 def index(request):
-    return render(request, 'cookiesolver/index.html')
+    return render(request, 'index.html')
 
 def solution(request):
-    return render(request, 'cookiesolver/solution.html')
+    return render(request, 'solution.html')
 
 @csrf_exempt
 def getUserInput(request):
